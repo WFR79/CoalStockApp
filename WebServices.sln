@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices", "WebServices\WebServices.csproj", "{5EC79CB4-C71D-4795-A967-58B74DEA9D44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{235857A5-1E88-406C-8F62-8FD4CB710EEC} = {235857A5-1E88-406C-8F62-8FD4CB710EEC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBussiness", "DataBussiness\DataBussiness.csproj", "{235857A5-1E88-406C-8F62-8FD4CB710EEC}"
 EndProject
